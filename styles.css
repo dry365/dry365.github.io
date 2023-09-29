@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.hero{
+    position:relative;
+    width: 109%;
+    height: 105vh;
+    background: #fdd9d9;
+}
+nav{
+    display: flex;
+    width: 84%;
+    height: 28vh;
+    margin: 1px;;
+    padding: 20px0;
+    align-items: center;
+     justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 25px;
+}
+nav ul li a {
+ text-decoration:none;
+ color: #b64601;
+font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.detel h1{
+    font-size: 76px;
+    color:#080807f6;
+    margin-bottom: 50px;
+}
+span{
+    color:#be5703;
+}
+.detel p{
+    color: #000303fd;
+    line-height:31px;
+    font-size:27px;
+    
+}
+.detel a{
+    background:#0e0b0b;
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fcf2f2;
+    display:inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+
+}
+.imagem{
+    width: 40%;
+    height: 70%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+}
+.imagem img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    transition:bottom 1s,left 1s;
+}
+.imagem:hover.fundo{
+    bottom:40px;
+}
+.imagem:hover.foto3{
+    left:45%;
+}
